@@ -1,4 +1,4 @@
-# Humidity-and-EC-sensors project (Agrotech Lab)
+# ESP32 Irrigation Control and Soil Moisture & EC Monitoring
 
 The purpose of this project is to build an ESP32-based system for measuring **soil moisture** and **EC** (electrical conductivity) in two irrigation lines, while also supporting **greenhouse control** via MQTT (valves + fertigation pump).  
 The system uploads sensor values to **ThingSpeak** for logging and visualization and can operate in **Auto** (scheduled) or **Manual** mode.
