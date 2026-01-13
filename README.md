@@ -8,7 +8,7 @@ The system uploads sensor values to **ThingSpeak** for logging and visualization
 # Hardware and assembly
 
 ![System setup](images/setup.jpg)
-![Wiring](images/wiring.jpg)
+![Wiring](images/scheme.jpg)
 
 ## Components and Sensors
 - **ESP32 board** (WiFi-enabled microcontroller)
