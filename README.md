@@ -83,7 +83,7 @@ Connect the components according to the following connections:
 
 - Power the EC sensors using the 3.3 V output and GND from the ESP32.
 
-- Power the soil moisture sensors using the VCC supply and connect their GND pins to ground.
+- Power the soil moisture sensors using the VCC output and GND from the ESP32.
 
 - Power the ESP32 either with a 5 V external power supply or via the USB connector.
 
