@@ -7,8 +7,9 @@ The system uploads sensor values to **ThingSpeak** for logging and visualization
 
 # Hardware and assembly
 
-![System setup](images/setup.jpg)
+
 ![Wiring](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/b3874a4443125295f45458cb79a738ebfa62a6dc/scheme.png)
+![System setup](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/4d6bb3228513b0cd3fbd61bc5cb7c849183c5b80/project%20setup.jpeg)
 
 ## Components and Sensors
 - **ESP32 board** (WiFi-enabled microcontroller)
