@@ -1,7 +1,9 @@
 # ESP32 Irrigation Control and Soil Moisture & EC Monitoring
-
-The purpose of this project is to build an ESP32-based system for measuring **soil moisture** and **EC** (electrical conductivity) in two irrigation lines, while also supporting **greenhouse control** via MQTT (valves + fertigation pump).  
-The system uploads sensor values to **ThingSpeak** for logging and visualization and can operate in **Auto** (scheduled) or **Manual** mode.
+This project implements an ESP32-based system for monitoring soil moisture and electrical conductivity (EC) in two irrigation lines.
+In addition to sensor measurements, the system controls irrigation and fertigation processes according to a predefined schedule.
+Sensor data is uploaded to ThingSpeak for logging and visualization.
+<!-- The purpose of this project is to build an ESP32-based system for measuring **soil moisture** and **EC** (electrical conductivity) in two irrigation lines, while also supporting **greenhouse control** via MQTT (valves + fertigation pump).  
+The system uploads sensor values to **ThingSpeak** for logging and visualization and can operate in **Auto** (scheduled) or **Manual** mode. -->
 
 ---
 
