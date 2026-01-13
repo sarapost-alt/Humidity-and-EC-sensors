@@ -77,7 +77,7 @@ Upload interval: **15 seconds**.
    - ThingSpeak updates succeed (HTTP 200)
 
 # Hardware Connections
-- Connect the components according to the following connections:
+Connect the components according to the following connections:
 
 - Connect the soil moisture sensors and EC sensors to the analog input pins of the ESP32.
 
