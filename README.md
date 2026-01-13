@@ -15,8 +15,6 @@ The system uploads sensor values to **ThingSpeak** for logging and visualization
 - **ESP32 board** (WiFi-enabled microcontroller)
 - **Soil moisture sensors (analog)** – 2 channels
 - **EC sensors (analog)** – 2 channels
-- Power supply (ensure sensor outputs do not exceed **3.3V** into the ESP32 ADC)
-- (Optional) valves/fertigation controller (remote devices controlled via MQTT)
 
 ### ESP32 Analog Pins (ADC1 recommended)
 | Channel | Sensor | ESP32 Pin |
@@ -37,7 +35,7 @@ The system uploads sensor values to **ThingSpeak** for logging and visualization
 | 2 | Soil moisture sensor (analog) | 2 | One per line |
 | 3 | EC sensor (analog) | 2 | One per line |
 | 4 | Jumper wires / breadboard | 1 | For prototyping |
-| 5 | Power supply | 1 | Stable 3.3V/5V as needed |
+| 5 | Power supply | 1 | Stable 3.3V/5V |
 
 ---
 
@@ -118,6 +116,9 @@ Moisture is mapped to 0–100% using dry/saturated calibration points per sensor
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/67b35c09f8af41a545b65ba02d0216afd7b46008/MOIST2.png)
 
 EC is converted using a linear factor derived from measured raw ADC values.
+
+The linear factor represents the slope of the calibration graph (slope =0.0013).
+ADC * linear factor = EC 
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/59845461cdb8c609c9785ad0f77d50e00967ce56/EC.png)
 
 ---
