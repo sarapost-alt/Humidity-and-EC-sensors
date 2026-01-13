@@ -77,15 +77,15 @@ Upload interval: **15 seconds**.
    - ThingSpeak updates succeed (HTTP 200)
 
 # Hardware Connections
-Connect the components according to the following connections:
+- Connect the components according to the following connections:
 
-Connect the soil moisture sensors and EC sensors to the analog input pins of the ESP32.
+- Connect the soil moisture sensors and EC sensors to the analog input pins of the ESP32.
 
-Power the EC sensors using the 3.3 V output and GND from the ESP32.
+- Power the EC sensors using the 3.3 V output and GND from the ESP32.
 
-Power the soil moisture sensors using the VCC supply and connect their GND pins to ground.
+- Power the soil moisture sensors using the VCC supply and connect their GND pins to ground.
 
-Power the ESP32 either with a 5 V external power supply or via the USB connector.
+- Power the ESP32 either with a 5 V external power supply or via the USB connector.
 
 ---
 
