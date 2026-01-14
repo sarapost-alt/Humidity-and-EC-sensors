@@ -37,7 +37,7 @@ The system uploads sensor values to **ThingSpeak** for logging and visualization
 | 2 | Soil moisture sensor (analog) | 2 | One per line |
 | 3 | EC sensor (analog) | 2 | One per line |
 | 4 | Jumper wires / breadboard | 1 | For prototyping |
-| 5 | Power supply | 1 | Stable 3.3V/5V |
+| 5 | Power supply | 1 | Stable 5V |
 
 ---
 
@@ -81,11 +81,11 @@ Connect the components according to the following connections:
 
 - Connect the soil moisture sensors and EC sensors to the analog input pins of the ESP32.
 
-- Power the EC sensors using the 3.3 V output and GND from the ESP32.
+- Power the EC sensors using the 3.3V output and GND from the ESP32.
 
 - Power the soil moisture sensors using the VCC output and GND from the ESP32.
 
-- Power the ESP32 either with a 5 V external power supply or via the USB connector.
+- Power the ESP32 either with a 5V external power supply or via the USB connector.
 
 ---
 
