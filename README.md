@@ -127,22 +127,16 @@ ADC * linear factor = EC
 
 # Experiment / Results
 
+We operated two irrigation valves using MQTT, according to the irrigation program we built. One of the valves also included fertilization. During the experiment, we measured soil moisture and soil electrical conductivity (EC), and the data were sent to ThingSpeak for monitoring.
+
 
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/2d77edb76ad870a559cbb20edf357f37260abe4b/images/%D7%A0%D7%99%D7%A1%D7%95%D7%991.jpeg)
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/736243ff7393a505166189c272272d863ae8974c/images/%D7%A0%D7%99%D7%A1%D7%95%D7%992.jpeg)
 
-**ThingSpeak Dashboard (https://thingspeak.mathworks.com/channels/3216807)** gra
-![ThingSpeak dashboard](images/thingspeak.png)
+**ThingSpeak Dashboard (https://thingspeak.mathworks.com/channels/3216807)** 
+![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/34433bcee2600813887ab6c346dffdae1144cc3e/images/graph2.png)
 
 
 ---
-
-# Tips / Troubleshooting
-1. Do not publish real credentials in a public repo (use `secrets.h` + `.gitignore`).
-2. Use **ADC1 pins** on ESP32 when WiFi is active (more stable).
-3. If readings are noisy, consider:
-   - stable power
-   - shorter wires / shielding
-   - averaging multiple ADC reads
 
 
