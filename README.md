@@ -89,7 +89,7 @@ Connect the components according to the following connections:
 
 ---
 
-# Operating Modes
+<!--# Operating Modes
 
 ## Auto Mode (scheduled irrigation)
 - **07:00–08:00**: Valve 1 ON (no fertigation)
@@ -107,7 +107,7 @@ The ESP32 subscribes to manual control topics:
 Outputs are published to:
 - `/greenhouse/outside/irrigation/solenoid1`
 - `/greenhouse/outside/irrigation/solenoid2`
-- `/greenhouse/outside/irrigation/fertigation`
+- `/greenhouse/outside/irrigation/fertigation` -->
 
 ---
 
