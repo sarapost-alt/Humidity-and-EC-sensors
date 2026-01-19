@@ -127,11 +127,13 @@ ADC * linear factor = EC
 
 # Experiment / Results
 
-[ThingSpeak Dashboard] (https://thingspeak.mathworks.com/channels/3216807) 
+
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/2d77edb76ad870a559cbb20edf357f37260abe4b/images/%D7%A0%D7%99%D7%A1%D7%95%D7%991.jpeg)
 ![](https://github.com/sarapost-alt/Humidity-and-EC-sensors/blob/736243ff7393a505166189c272272d863ae8974c/images/%D7%A0%D7%99%D7%A1%D7%95%D7%992.jpeg)
 
+**ThingSpeak Dashboard (https://thingspeak.mathworks.com/channels/3216807)** gra
 ![ThingSpeak dashboard](images/thingspeak.png)
+
 
 ---
 
