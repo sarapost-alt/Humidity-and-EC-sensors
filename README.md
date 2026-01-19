@@ -127,7 +127,7 @@ ADC * linear factor = EC
 
 # Experiment / Results
 
-**ThingSpeak dashboard:** (add your channel link here)
+**ThingSpeak dashboard:** (https://thingspeak.mathworks.com/channels/3216807))
 
 ![ThingSpeak dashboard](images/thingspeak.png)
 
